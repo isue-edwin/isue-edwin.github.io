@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Isue Shin Home Portfolio</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Edwin Hidalgo"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/style_index.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/style_navbar.css" type="text/css">
+	<!-- <link rel="stylesheet" href="css/style_index3.css" type="text/css"> -->
+
+	<!-- jQuery CDN - Slim version (=without AJAX) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+	<!-- Vimeo video properties -->
+	<meta property="og:image" content="https://i.vimeocdn.com/video/624551449_590x332.webp"/>
+	<meta property="og:image:width" content="590"/>
+	<meta property="og:image:height" content="332"/>
+</head>
+
+<body>
+	<div id="canvas">
+		<!-- Sidebar -->
+		<nav id="sidebar">
+			<div id="whitediv"></div>
+			<div id="logo"><a href="index.html">Isue Shin</a></div>
+			<div id="job">Filmmaker + Videographer based in LA</div>
+			<ul id="sideul" class="list-unstyled components">
+				<li class="navOption active"><a href="index.html">home</a></li>
+				<li class="navOption"><a href="about.html">about</a></li>
+				<li class="navOption"><a href="films.html">films</a></li>
+				<li class="navOption"><a href="photography.html">photography</a></li>
+				<li class="navOption"><a href="contact.html">contact me</a></li>
+			</ul>
+			<div id="socialPlugs">
+				<a href="https://www.linkedin.com/in/isue-shin-658505b3/" class="pluglink" target="_blank"><img id="linkLogo" src="images/logos/social-linkedin.svg"></a>
+				<a href="https://www.facebook.com/isuee?ref=br_rs" class="plugFB" target="_blank"><img id="fbLogo" src="images/logos/social-facebook.svg"></a>
+				<a href="contact.html" class="plugEmail"><img id="emailLogo" src="images/logos/message.svg"></a>
+			</div>
+		</nav>
+		<!-- Page Content -->
+		{{ content }}
+	</div>
+</body>
+
+</html>

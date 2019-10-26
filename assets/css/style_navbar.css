@@ -1,0 +1,128 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body {
+    font-family: "Lato", Calibri, sans-serif;
+    margin: 0 auto !important;
+    float: none !important;
+    line-height: normal;
+}
+
+#canvas {
+    padding: 40px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#sidebar {
+    position: fixed;
+    width: 190px;
+    margin: 0;
+    background-color: white;
+    height: 100vh;
+    z-index: 999;
+    color: #fff;
+    transition: all 0.3s;
+    padding-right: 10px;
+    padding-top: 40px;
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+#logo {
+    font-size: 49px;
+    color: #5d5b5b;
+    font-weight: 100;
+    box-sizing: content-box;
+    line-height: normal;
+
+    display:inline-block;
+    -webkit-transform:scale(1,1.15);
+    -moz-transform:scale(1,1.15); 
+    -ms-transform:scale(1,1.15); 
+    -o-transform:scale(1,1.15); 
+    transform:scale(1,1.15);
+}
+
+#logo a {
+    text-decoration: none;
+    color: black;
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+#job {
+    font-size: 13px;
+    color: rgba(93, 91, 91, 0.48);
+    font-weight: 300;
+    text-align: right;
+    width: 170px;
+    left: 17px;
+    position: relative;
+}
+
+#sideul {
+    padding-top: 50px;
+    font-size: 16px;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+#sideul li {
+    padding-bottom: 1px;
+}
+
+#sideul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+#sideul li a:hover {
+    color: rgba(93, 91, 91, 0.48);
+}
+
+#socialPlugs {
+    width: 150px;
+    padding-top: 60px;
+}
+
+#socialPlugs a {
+    
+}
+
+#socialPlugs a img {
+
+}
+
+#linkLogo {
+    width: 20px;
+    height: 20px;
+}
+
+#fbLogo {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 4px;
+}
+
+#instaLogo {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 2px;
+}
+
+#emailLogo {
+    position: relative;
+    left: 8px;
+    top: 2px;
+    width: 21px;
+    height: 21px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Page Content~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#contentWrapper {
+    padding-left: 250px;
+}

@@ -1,0 +1,34 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Index~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0px;
+    }
+}
+
+#content {
+    /*padding-left: 250px;*/
+    margin: 0 auto;
+    margin-top: 40px;
+    min-width: 500px;
+}
+
+.videoWrapper {
+    position: relative;
+    /*max-width: 800px;*/
+    /*max-height: 450px;*/
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9; */
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
